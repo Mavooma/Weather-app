@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+<div class="weather-app">
+    <input type="text" id="search-box" placeholder="Enter a City...">
+    <button id="search-btn">Search</button>
+    <div class="weather-container">
+        <h2 id="city-name">Maldives</h2>
+        <h3 id="weather-time">Monday 21:50, broken clouds</h3>
+        <div class="weather-info">
+            <div class="weather-icon">
+                <img src="sun.png" alt="sun" class="weather-icon spin" id="icon-sun">
+                <img src="cloud.png" alt="cloud" class="weather-icon spin" id="icon-cloud">
+                <img src="Rainy.png" alt="rainy" class="weather-icon" id="icon-rainy">
+            </div>
+
+            <h1 id="temperature">14°C</h1>
+        </div>
+        <div id="weather-deatils">
+            <p>Humidity; <span id="humidity">79%</span></p>
+            <p>Wind; <span id="wind">13.89km/h</span></p>
+        </div>
+        <div class="forcast-container">
+            <!-- forcast details will be displayed by javascript -->
+        </div>
+    </div>
+
+    <footer>
+        This project was coded by Vuyelwa Mavuma
+    </footer>
+</div>
+</body>
+</html>
